@@ -43,3 +43,5 @@ console.log(hamburger || cola || fries);
 let johnRepot, alexRepot, samRepot, mariaRepot = "done";
 
 console.log(johnRepot || alexRepot || samRepot || mariaRepot);
+
+console.log(!0);
