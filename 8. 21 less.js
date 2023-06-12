@@ -8,10 +8,18 @@
 // console.log((hamburger && frie));//обернули у подвійні круглі скобки, щоб одразу отримати результат
 
 
-const hamburger = 2;
-const frie = 1;
+const hamburger = 3;
+const fries = 1;
+const cola = 1;
 
-if(hamburger === 3 && frie){
+console.log(hamburger === 3 && cola === 1 && fries);
+
+console.log();
+console.log();
+console.log();
+console.log();
+
+if(hamburger === 3 && cola === 1 && fries){
 	console.log("All eating");
 } else {
 	console.log("We are going");
